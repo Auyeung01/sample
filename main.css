@@ -1,0 +1,103 @@
+/*
+How to do borders
+Centering
+Sections side by side
+
+*/
+
+/* align center keeps photo from trying to fill whole container */
+img {
+    align-self: center;
+}
+
+/* affects line items */
+
+
+.listinside
+{
+   /* Makes bullet points part of item */
+    list-style: inside;
+    /* Moves item to center */
+    text-align:center
+}
+
+
+/* a period in front affects only those with this class */
+.block
+{
+    display: block;
+}
+
+
+/* affects all div  */
+div
+{   
+    /* flex property turns into a flexbox */
+    /* block property ? */
+    display:flex;
+
+
+    /* row is side by side, column is one on top of the other  */
+    flex-direction: column;
+
+}
+    
+.center
+{
+
+    justify-content: center;
+
+}
+
+/* this creates a solid border */
+.solid
+{
+    border-style: solid;
+}
+
+/* this creates a dotted border */
+.dotted
+{   
+    border-style: dotted;
+}
+
+/* ---  (Desktop) Groups & Items --- */
+
+/* need to look into this on how to fill out */
+
+@media all and (min-width: 800px) 
+{
+   /* what you want to do on desktop and not mobile */
+}
+
+
+    /* ---  Contact Form Design --- */
+
+
+/* form runs across entire width of page */
+form 
+{
+    padding-right: 6px;
+    /* Fixed small sizing issue on the right */
+}
+  
+form input, form textarea 
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+  
+form textarea 
+{
+    height: 160px;
+}
+
+
+/* affects width of form boxes */
+
+form{
+    max-width: 500px;
+}
+
+
+

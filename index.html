@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- have to link to css file to work -->
+    
+    <link rel="stylesheet" href="main.css">
+    <title>Sample</title>
+</head>
+
+<!-- grid arrange things, flexbox aligns -->
+
+
+<body>
+    <h2>This is a header</h2>
+    <!-- this is the main container-->
+        <div> 
+            <!-- this is container for item 1-->
+            <section>
+                <div class="solid">
+                <h3>Item 1</h3>
+                    <p>This is the stuff in item 1</p>
+   
+                </div>
+            
+            <!-- this is the container for item 2-->
+            <div>
+                <h3>Item 2</h3>
+                <img src="images/placeholder.png" alt="placeholder">
+
+
+            </div>
+            </section>
+            <!-- this is the container for item 3-->
+            <div class="solid">
+                <h3>Item 3</h3>
+                    <ul>
+                        <li>Line 1</li>
+                        <li>Line 2</li>
+                        <li>Line 3</li>
+                        <li>Line 4</li>
+                    </ul>
+            </div>
+
+            <!-- this is the container for item 4-->
+            <div class="dotted listinside">
+                <h3>Item 4</h3>
+                    <ol>
+                        <li>Number 1</li>
+                        <li>Number 2</li>
+                        <li>Number 3</li>
+                        <li>Number 4</li>
+                    </ol>
+            </div>
+        </div>
+
+            <!-- what if I want to add a line header here-->
+            <!-- 
+                create a separate container
+                
+                section (main box)
+                div (smaller items)
+                
+                article (multiple things within section)
+            
+            <section> 
+                <h3>I want this line to be a separate container running across the page</h3>
+            <section>
+            
+        -->
+
+      
+        <div>
+            <!-- this is the container for item 5   -->
+            <div>
+                <h3>Item 5</h3>
+                    <form action="https://formspree.io/samuel_auyeung@hotmail.com" method="post">
+                        <label for="user-name">Name:</label>
+                        <input id="user-name" type="text" name="name">
+                
+                        <label for="user-email">Email:</label>
+                        <input id="user-email" type="text" name="email">
+                
+                        <label for="user-message">Message:</label>
+                        <textarea id="user-message" name="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+            </div>
+
+        </div>
+</body>
+</html>
